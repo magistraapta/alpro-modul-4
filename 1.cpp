@@ -298,7 +298,7 @@ void utama()
     int pilih;
 
     cout <<"1. Masuk " << endl;
-    cout <<"2.. Daftar" << endl;
+    cout <<"2. Daftar" << endl;
     cout <<"3. Keluar " << endl;
     cout <<"Pilih = ";cin>>pilih;
     switch (pilih)
