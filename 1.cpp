@@ -40,14 +40,14 @@ void menu(){
     {
         case 1:{
             cout << endl;
-            system("clear");
+            system("cls");
             cout << "Saldo anda saat ini adalah Rp." << saldo << endl;
             menu();
             break;
         }
         case 2:{
             cout << endl;
-            system("clear");
+            system("cls");
             cout<< "1. Lanjutkan topup" << endl;
             cout<< "2. kembali" << endl;
             cout << "Pilih = "; cin >> pilih;
@@ -65,7 +65,7 @@ void menu(){
         }
         case 3:{
             cout << endl;
-            system("clear");
+            system("cls");
             cout << "1. Lanjutkan transfer" << endl;
             cout << "2. Kembali" << endl;
             cout << "Pilih = "; cin >> pilih;
@@ -89,7 +89,7 @@ void menu(){
         }
         case 4:{
             cout << endl;
-            system("clear");
+            system("cls");
             cout << endl;
             cout <<"1. Listrik" << endl;
             cout <<"2. Air" << endl;
@@ -98,7 +98,7 @@ void menu(){
             switch (pilih)
             {
                 case 1:{
-                    system("clear");
+                    system("cls");
                     int tagihan = 150000;
                     int id;
                     string lanjut;
@@ -119,7 +119,7 @@ void menu(){
                 }
                 case 2:{
                     cout << endl;
-                    system("clear");
+                    system("cls");
                     int tagihan = 100000;
                     int id;
                     string lanjut;
@@ -140,7 +140,7 @@ void menu(){
                 }
                 case 3:{
                     cout << endl;
-                    system("clear");
+                    system("cls");
                     int tagihan = 200000;
                     int id;
                     string lanjut;
@@ -165,7 +165,7 @@ void menu(){
         }
         case 5:{
             cout << endl;
-            system("clear");
+            system("cls");
             cout <<"1. Cek profil" << endl;
             cout <<"2. Ubah profil" << endl;
             cout << "3. Kembali" << endl;
@@ -173,17 +173,17 @@ void menu(){
             switch (pilih)
             {
                 case 1:{
-                    system("clear");
+                    system("cls");
                     cek_profil();
                     break;
                 }
                 case 2: {
-                    system("clear");
+                    system("cls");
                     ubah_profil();
                     break;
                 }
                 case 3: {
-                    system("clear");
+                    system("cls");
                     menu();
                 }
                 
@@ -193,7 +193,7 @@ void menu(){
         }
         case 6:{
             cout << endl;
-            system("clear");
+            system("cls");
             utama();
         }
     
@@ -213,21 +213,21 @@ void cek_profil () {
     {
         case 1: {
             cout << endl;
-            system("clear");
+            system("cls");
             cout << "Username anda: " << username << endl;
             menu(); 
             break;
         }
         case 2: {
             cout << endl;
-            system("clear");
+            system("cls");
             cout << "Password anda: " << pass << endl;
             menu(); 
             break;
         }
         case 3: {
             cout << endl;
-            system("clear");
+            system("cls");
             menu(); 
             break;
         }
@@ -248,7 +248,7 @@ void ubah_profil(){
     {
         case 1:{
             cout << endl;
-            system("clear");
+            system("cls");
             cout << endl;
             cout<< "Masukkan username baru: "; cin >> user;
             cout << "Lanjutkan perubahan? (y/n): ";cin>>lanjut;
@@ -265,7 +265,7 @@ void ubah_profil(){
         }
         case 2:{
             cout << endl;
-            system("clear");
+            system("cls");
             cout << endl;
             cout<< "Masukkan password baru: "; cin >> user_pass;
             cout << "Lanjutkan perubahan? (y/n): ";cin>>lanjut;
@@ -282,7 +282,7 @@ void ubah_profil(){
         }
         case 3:{
             cout << endl;
-            system("clear");
+            system("cls");
             menu();
             break;
         }
@@ -305,13 +305,13 @@ void utama()
     {
         case 1:{
             cout << endl;
-            system("clear");
+            system("cls");
             login();
             break;
         }
         case 2:{
             cout << endl;
-            system("clear");
+            system("cls");
             cout << "Selamat datang di menu daftar" << endl;
             cout << "Username : ";cin>>username;
             cout << "Password : ";cin>>pass;
@@ -321,7 +321,7 @@ void utama()
         }
         case 3:{
             cout << endl;
-            system("clear");
+            system("cls");
             cout << "Sampai jumpa :)" << endl;
             break;
         }
@@ -333,7 +333,7 @@ void utama()
 int main()
 {
     cout << endl;
-    system("clear");
+    system("cls");
     utama();
     return 0;
 }
